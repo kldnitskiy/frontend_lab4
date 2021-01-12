@@ -1,0 +1,120 @@
+@media (max-width: 1250px) {
+  /*.workflow.container {*/
+  /*  max-width: 850px;*/
+  /*}*/
+  /*.graphics > #canvas{*/
+  /*  background-size: 90% !important;*/
+  /*}*/
+  .app-table > .results{
+    padding-top: 20px !important;
+  }
+}
+
+@media (max-width: 852px){
+  .workflow.container {
+    padding-top: 10px;
+  }
+  .app-graphform{
+    padding-top: 50px;
+  }
+  .menu_author{
+    display: none;
+  }
+  .menu_nameLab{
+    font-size: 18px !important;
+    padding-top: 5px;
+  }
+  .menu_nameSubject{
+    font-size: 16px !important;
+  }
+  .form_button,.btn-openForm{
+    display: block !important;
+  }
+  .app-graph,.app-graphform{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .graphics,#form{
+    width: 540px !important;
+    margin: auto;
+    margin-top: 0px;
+  }
+  #canvas{
+    height: 578px;
+  }
+  .graphics > #canvas{
+    background-size: contain !important;
+  }
+  #formId p{
+    margin-bottom: 5px;
+  }
+  #formId{
+    padding-top: 40px;
+  }
+  .welcome > h1{
+    font-size: 24px;
+  }
+  .welcome h2{
+    font-size: 18px !important;
+  }
+  .welcome-gif{
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .welcome-gif > img{
+    width: 100%;
+  }
+  .btn-primary{
+    height: 50px;
+  }
+  .menu_name > .menu_vt{
+    height: 50px !important;
+    width: 50px !important;
+    margin-top: 5px;
+  }
+  .app-graphform, .app-table {
+    position: absolute !important;
+  }
+  #mobile_control{
+    display: block !important;
+  }
+
+  .app-table{
+    display: none;
+  }
+  .app-graphform{
+    display: none;
+  }
+
+  .canvasNotify {
+    line-height: 50px;
+    padding-left: 10px;
+  }
+  .exit{
+    display: none;
+  }
+
+  .menu_icon{
+    display: block;
+  }
+  .author_pic,.author_info{
+    float: left !important;
+    text-align: left !important;
+  }
+  .author_pic{
+    margin-right: 15px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .graphics,#form{
+    width: 420px !important;
+  }
+  #canvas{
+    height: 450px;
+  }
+  .graphics > #canvas{
+    background-size: 80% !important;
+  }
+}

@@ -1,0 +1,38 @@
+<div class="control" >
+  <div id="form">
+    <form id="formId">
+      <div class="row">
+        <div class="col-12 form_x">
+          <p (click)="sendMessage()">Choose coordinate X:</p>
+          <span class="p-float-label">
+            <p-multiSelect [options]="x" (ngModelChange)="saveX($event)"  [(ngModel)]="selectedX" name="x" optionLabel="name" required minlength="4"></p-multiSelect>
+
+                                </span>
+        </div>
+        <div class="col-12 form_y">
+          <p>Choose coordinate Y:</p>
+          <span class="p-float-label">
+                                <input type="text" class="input-y" (ngModelChange)="saveY($event)" [(ngModel)]="selectedY" placeholder="{-3 ... 3}" name="y" pInputText />
+
+                                </span>
+        </div>
+        <div class="col-12 form_z">
+          <p>Choose radius R:</p>
+          <span class="p-float-label">
+                                <p-multiSelect [options]="z" (ngModelChange)="saveR($event)" [(ngModel)]="selectedZ" name="z" optionLabel="name"></p-multiSelect>
+
+                                </span>
+        </div>
+        <div class="col-12 form_submit">
+          <button class="btn btn-primary btn-form" (click)="sendData()">Отправить</button>
+        </div>
+        <p class="exit" (click)="exit()">
+          Выйти из приложения
+        </p>
+        <p class="form-error" *ngIf="errors">
+          {{errors}}
+        </p>
+      </div>
+    </form>
+  </div>
+</div>

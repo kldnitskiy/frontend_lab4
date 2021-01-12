@@ -1,0 +1,6 @@
+{
+  "/rest": {
+    "target": "http://0.0.0.0:11420/lab_work_4-1.0-SNAPSHOT",
+    "secure": false
+  }
+}

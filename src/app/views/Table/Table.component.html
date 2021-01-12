@@ -1,0 +1,27 @@
+<div class="results  col-12">
+  <div class="table mainTable" (someEvent)="ngOnInit()">
+    <table id="resultTable">
+      <tbody id="resultTableBody">
+      <tr class="resultsTypes">
+        <td>
+          X
+        </td>
+        <td>
+          Y
+        </td>
+        <td>
+          R
+        </td>
+        <td>
+          Статус
+        </td>
+      </tr>
+      <tr *ngFor="let item of output; let i=index">
+        <td>{{item.x}}</td>
+        <td>{{item.y}}</td>
+        <td>{{item.r}}</td>
+        <td>{{item.status}}</td>
+      </tr>
+    </table>
+  </div>
+</div>

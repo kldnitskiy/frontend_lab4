@@ -1,0 +1,47 @@
+.menu{
+  color: #fff;
+  height: 80px;
+  background-color: #1B68FF;
+  padding: 10px 0px;
+}
+.menu_vt{
+  background-image: url("src/assets/images/vt_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-right: 10px;
+}
+.menu_nameLab{
+  font-size: 24px;
+  font-family: "SemiBold";
+  height: 30px;
+}
+.menu_nameSubject{
+  font-size: 18px;
+  font-family: "Medium";
+  height: 20px;
+}
+.author_info{
+  padding-top: 8px;
+  float: right;
+  text-align: right;
+}
+.author_name,.author_group{
+  font-size: 18px;
+  font-family: Medium;
+  height: 20px;
+}
+.author_pic{
+  height: 60px;
+  width: 60px;
+  background-image: url("src/assets/images/author.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-left: 15px;
+  float: right;
+}

@@ -1,0 +1,16 @@
+
+.form-register-link{
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.form-register-link a{
+  color: gray;
+}
+.btn-login{
+  width: 100%;
+}
+label{
+  color: black;
+  float: left;
+}

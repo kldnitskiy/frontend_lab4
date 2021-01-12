@@ -1,0 +1,43 @@
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<div class="row">
+  <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+    <div class="px-2">
+      <form action="" class="justify-content-center">
+        <div class="form-slide form-slide-1">
+          <div class="form-group">
+            <label for="username">Имя</label>
+            <input id="username" type="text" [(ngModel)]="userName" name="name" class="form-control" placeholder="Андрей Петров">
+          </div>
+          <div class="form-group">
+            <label for="password">Пароль</label>
+            <input id="password" type="password" [(ngModel)]="password" name="pwd" class="form-control" placeholder="********">
+          </div>
+          <div class="form-group">
+            <label for="password_repeat">Повторите пароль</label>
+            <input id="password_repeat" type="password" [(ngModel)]="password_repeat" name="pwd_repeat" class="form-control" placeholder="********">
+          </div>
+          <button (click)="next()" class="btn btn-primary btn-next">Дальше</button>
+          <p class="form-register-link"><a routerLink="/login">Уже есть аккаунт? Нажмите, чтобы войти</a></p>
+          <p class="form-error" *ngIf="response">{{response}}</p>
+        </div>
+        <div class="form-slide form-slide-2">
+          <div class="form-group">
+            <label for="password_repeat">Номер ИСУ</label>
+            <input id="password_repeat" type="text" [(ngModel)]="isu" name="isu" class="form-control" placeholder="123456">
+          </div>
+          <div class="form-group">
+            <label for="password_repeat">Учебная группа (опционально)</label>
+            <input id="password_repeat" type="text" [(ngModel)]="group_number" name="group_number" class="form-control" placeholder="P1234">
+          </div>
+          <div class="form-group">
+            <label for="password_repeat">Email</label>
+            <input id="password_repeat" type="email" [(ngModel)]="email" name="email" class="form-control" placeholder="username@gmail.com">
+          </div>
+          <button (click)="register()" class="btn btn-primary btn-login">Создать аккаунт</button>
+          <p class="form-return-back" (click)="back()">Вернуться обратно</p>
+          <p class="form-error" *ngIf="response">{{response}}</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

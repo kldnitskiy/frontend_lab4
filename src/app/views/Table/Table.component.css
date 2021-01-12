@@ -1,0 +1,44 @@
+.results{
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.table{
+  height: inherit;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 15px;
+  max-height: 510px;
+  overflow-y: scroll;
+
+}
+.mainTable{
+  max-height: 120px;
+  overflow-y: scroll;
+}
+table{
+  width: 100%;
+  text-align: center;
+  border-collapse: separate;
+}
+.resultsTypes{
+  background-color: #1B68FF;
+  color: #fff;
+}
+tr > td{
+  width: 25%;
+}
+.resultsTypes > td:first-child{
+  border-radius: 15px 0px 0px 0px;
+}
+.resultsTypes > td:last-child{
+  border-radius: 0px 15px 0px 0px;
+}
+.result_back{
+  text-align: center;
+  padding: 10px 0px;
+}
+.app-table{
+  width: 100% !important;
+}

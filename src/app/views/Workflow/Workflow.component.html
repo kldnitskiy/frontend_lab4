@@ -1,0 +1,22 @@
+<div class="container workflow">
+  <div class="row">
+    <app-graph></app-graph>
+    <app-graphform (messageEvent)="receiveMessage($event)"></app-graphform>
+    <app-table [childMessage]="message"></app-table>
+  </div>
+</div>
+
+<div id="mobile_control">
+  <div class="row">
+    <div class="control-graph col-4" onclick="showGraph()">
+      <fa-icon [icon]="GraphIcon"></fa-icon>
+    </div>
+    <div class="control-graph col-4" onclick="showForm()">
+      <fa-icon [icon]="FormIcon"></fa-icon>
+    </div>
+    <div class="control-graph col-4 tableIconShow" onclick="showTable()">
+      <fa-icon [icon]="TableIcon"></fa-icon>
+    </div>
+  </div>
+</div>
+

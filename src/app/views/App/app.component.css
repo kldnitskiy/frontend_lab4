@@ -1,0 +1,145 @@
+
+/*Fonts*/
+@font-face {
+  font-family: "SemiBold";
+  src: url("src/assets/fonts/Montserrat-SemiBold.ttf") format("truetype")
+}
+@font-face {
+  font-family: "Regular";
+  src: url("src/assets/fonts/Montserrat-Regular.ttf") format("truetype")
+}
+@font-face {
+  font-family: "Medium";
+  src: url("src/assets/fonts/Montserrat-Medium.ttf") format("truetype")
+}
+@font-face {
+  font-family: "Bold";
+  src: url("src/assets/fonts/Montserrat-Bold.ttf") format("truetype")
+}
+@font-face {
+  font-family: "ExtraBold";
+  src: url("src/assets/fonts/Montserrat-ExtraBold.ttf") format("truetype")
+}
+
+
+body{
+  font-family: "Medium";
+  overflow: hidden;
+  margin: 0px;
+}
+.tools{
+  left: 25px;
+  bottom: 5px;
+  position: absolute;
+}
+.canvasNotify{
+  line-height: 40px;
+  padding-left: 10px;
+}
+.welcome{
+  padding-top: 50px;
+}
+.workflow.container{
+  max-width: 900px;
+  padding-top: 30px;
+}
+.control,.graphics,#canvas{
+  height: 450px;
+}
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+.welcome-button{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.wrapper > .row > *{
+  width: 100%;
+}
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+h2{
+  font-size: 20px !important;
+  text-align: center;
+}
+.welcome-gif{
+  margin-bottom: 20px;
+}
+
+
+#formId{
+  padding-top: 10px;
+}
+.p-multiselect{
+  width: 200px;
+}
+.input-y{
+  height: 40px;
+  border: 1px solid #ced4da;
+}
+.btn-form{
+  margin-top: 20px;
+}
+
+.form-error{
+  margin: auto;
+  margin-top: 10px;
+}
+.btn-viewGraph{
+  width: 200px;
+  margin-top: 10px;
+}
+.form_button,.btn-openForm{
+  display: none !important;
+}
+.btn-openForm{
+  margin-left: 35px;
+}
+.btn-r{
+  margin-left: 5px;
+}
+.app-table{
+  width: 100% !important;
+}
+
+.menu_icon{
+  display: none;
+  text-align: right;
+  cursor: pointer;
+  font-size: 35px;
+  line-height: 55px;
+}
+
+.menu_mobile{
+  position: relative;
+  top: 10px;
+  border-top: 1px solid #fff;
+  padding: 20px 0px;
+  background-color: #1B68FF;
+  display: none;
+  z-index: 999999;
+}
+
+.exitIcon{
+  font-size: 35px;
+  float: right;
+  margin-top: 5px;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
